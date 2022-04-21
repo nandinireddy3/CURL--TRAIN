@@ -66,7 +66,7 @@ def main():
         help="Directory containing images to run through a saved CURL model instance", default=None)
     parser.add_argument(
         "--training_img_dirpath", required=False,
-        help="Directory containing images to train a DeepLPF model instance", default="/home/nandini/Projects/Datasets/Adobe5k/adobe5k")
+        help="Directory containing images to train a DeepLPF model instance", default="./sample_train")
     args = parser.parse_args()
     num_epoch = args.num_epoch
     valid_every = args.valid_every
