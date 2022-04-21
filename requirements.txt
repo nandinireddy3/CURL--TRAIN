@@ -1,0 +1,8 @@
+numpy
+scipy
+torch
+scikit_image
+torchvision
+matplotlib
+imageio
+Pillow
